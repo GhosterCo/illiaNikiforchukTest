@@ -1,0 +1,33 @@
+.log-viewer {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.log-container {
+  height: 300px;
+  overflow-y: auto;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+pre {
+  margin: 2;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}

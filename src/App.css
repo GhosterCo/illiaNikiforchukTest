@@ -1,0 +1,14 @@
+/* App.css */
+.log-container {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.log-entry {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+button {
+  margin-bottom: 10px;
+}
